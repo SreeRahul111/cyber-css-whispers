@@ -13,7 +13,7 @@ const Index = () => {
       </div>
       
       <footer className="text-center py-4 text-cyber-muted text-xs">
-        <p>CyberSecureChat © 2025 | Protected with advanced encryption</p>
+        <p>Closed AI © 2025 | Protected with advanced encryption</p>
       </footer>
     </div>
   );

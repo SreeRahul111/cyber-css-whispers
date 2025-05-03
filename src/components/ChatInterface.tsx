@@ -9,7 +9,7 @@ const ChatInterface: React.FC = () => {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: generateId(),
-      content: "Welcome to SecureChat. All communications are end-to-end encrypted.",
+      content: "Welcome to Closed AI. All communications are end-to-end encrypted.",
       sender: 'system',
       timestamp: new Date(),
     },
@@ -59,7 +59,7 @@ const ChatInterface: React.FC = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <ShieldCheck size={24} className="text-cyber-accent" />
-            <h1 className="text-xl font-semibold">SecureChat</h1>
+            <h1 className="text-xl font-semibold">Closed AI</h1>
           </div>
           <div className="text-cyber-muted text-sm flex items-center gap-2">
             <span className="h-2 w-2 rounded-full bg-cyber-glow"></span>
